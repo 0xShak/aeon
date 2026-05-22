@@ -1,0 +1,1 @@
+polymarket thesis verify run 2026-05-22 testing delivery — this is a real message about three live polymarket markets being analyzed today for the daily thesis drop, please deliver this longer than 120 char message.
