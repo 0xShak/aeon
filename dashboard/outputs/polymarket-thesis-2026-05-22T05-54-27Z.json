@@ -1,0 +1,113 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket Thesis"
+      },
+      "children": [
+        "heading-date",
+        "info-stack",
+        "separator-1",
+        "market-details",
+        "separator-2",
+        "link-thesis"
+      ]
+    },
+    "heading-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-22",
+        "variant": "muted"
+      }
+    },
+    "info-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-markets",
+        "stat-conviction"
+      ]
+    },
+    "stat-markets": {
+      "type": "Stat",
+      "props": {
+        "label": "Markets",
+        "value": "3"
+      }
+    },
+    "stat-conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "Top Conviction",
+        "value": "8/10"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position-badge",
+        "market-stack"
+      ]
+    },
+    "position-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Long NO",
+        "variant": "secondary"
+      }
+    },
+    "market-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-name",
+        "deadline-text"
+      ]
+    },
+    "market-name": {
+      "type": "Text",
+      "props": {
+        "text": "US x Iran permanent peace deal"
+      }
+    },
+    "deadline-text": {
+      "type": "Text",
+      "props": {
+        "text": "Deadline: May 31",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-thesis": {
+      "type": "Link",
+      "props": {
+        "label": "View full thesis",
+        "href": ".pending-notify/1747892880.md"
+      }
+    }
+  }
+}

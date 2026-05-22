@@ -17,3 +17,4 @@ Strategy stated in Q1 earnings they will not sell below mNAV 1.22 — currently 
 → SHORT YES @ 0.095 — 7/10
 
 watching tomorrow: the June 15 US-Iran peace deal at 0.315. if the May 31 leg fades the next-tenor contract has to retrace too.
+polymarket thesis, 2026-05-22 — 3 markets, top conviction 8/10 long NO on US x Iran permanent peace deal by May 31. see .pending-notify/1747892880.md for full thesis.

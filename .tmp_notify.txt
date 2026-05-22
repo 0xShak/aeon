@@ -1,0 +1,18 @@
+polymarket thesis — 2026-05-22
+
+1. US x Iran permanent peace deal by May 31, 2026
+YES 0.20 · $4.8m 24h · resolves in 9 days
+permanent peace deal in 9 days isn't happening. nyt reported the current US memo specifies a 60-day negotiating window, which puts the earliest possible signing in late june, weeks after this market resolves. YES camp is mostly trump-victory-lap headline traders.
+> long NO @ 0.80, conviction 8/10
+
+2. Will the New York Knicks win the 2026 NBA Finals?
+YES 0.21 · $321k 24h · resolves July 1
+knicks up 1-0 on cleveland. close out probability ~77%, then 35-40% vs OKC (64-18, top defense) or wemby's spurs in the finals. math comes out around 0.28, slight edge. but the contract already ripped +17.5pp this month and +3pp today, market's pricing the run.
+> long YES @ 0.205, conviction 5/10
+
+3. LoL KT Rolster vs Gen.G (BO3), LCK Rounds 1-2
+KT 0.20 · $644k 24h · resolves today 16:00 UTC
+market says gen.g wins ~80% vs KT today. that fits a BO5 playoff series between a top team and a mid one, not a BO3 mid-season between two top-table teams. KT sits near the top of LCK standings this split. BO3 variance is high, two map upsets and it flips.
+> long KT @ 0.195, conviction 4/10
+
+watching tomorrow: us-x-iran-peace-by-june-15 sits at 0.315, much cleaner risk/reward given the 60-day talks window.
