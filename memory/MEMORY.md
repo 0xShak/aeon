@@ -27,7 +27,5 @@
 ## Open positions
 | Opened | Market | Side | Entry | Conv | Resolves | Status |
 |--------|--------|------|-------|------|----------|--------|
-| 2026-05-22 | US x Iran permanent peace deal by May 31, 2026? | SHORT YES (LONG NO) | 0.195 | 8/10 | 2026-05-31 | open |
-| Opened | Market | Side | Entry | Conviction | Resolves |
-|--------|--------|------|-------|-----------|----------|
-| 2026-05-22 | US x Iran permanent peace deal by May 31, 2026 (id 1919425) | LONG NO | 0.80 | 8/10 | 2026-05-31 |
+| 2026-05-22 | US x Iran permanent peace deal by May 31, 2026? (id 1919425) | SHORT YES (LONG NO) | 0.195 | 8/10 | 2026-05-31 | open |
+| 2026-05-22 | US x Iran permanent peace deal by June 15, 2026? (id 2270330) | SHORT YES (LONG NO) | 0.315 | 8/10 | 2026-06-15 | open |

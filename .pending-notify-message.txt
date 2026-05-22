@@ -1,0 +1,14 @@
+polymarket edge — 2026-05-22
+
+1 edge today. rest didn't clear the bar.
+
+US x Iran permanent peace deal by June 15, 2026?
+market: YES 0.315, $378k 24h vol, resolves jun 15
+read: us framework tabled may 7 (20yr enrichment freeze, dismantlement of fordow, natanz, isfahan). iran is "reviewing" as of may 21 and has countered with 5yr. the 15yr gap is unresolved. the framework itself triggers a 30 day technical negotiation window before any signed permanent deal. math puts the earliest possible signed deal in late june, not by the 15th. june 15 priced 13pp above the may 31 leg over 15 days is mechanically inconsistent with that clock.
+gap: ~18pp (market 0.315, fair 0.12 to 0.15)
+trade: SHORT YES at 0.315, conviction 8/10
+
+skipped:
+> iran airspace closes by may 24 at 0.105. IKA resumed flights may 21, fair ~0.04 but gap under 8pp.
+> may 31 peace deal at 0.185. same trade shipped yesterday, no double-billing.
+> hormuz traffic returns to normal by june 30 at 0.305. 20+pp gap but 39 days out, outside window.
