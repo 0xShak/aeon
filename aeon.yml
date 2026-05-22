@@ -44,6 +44,14 @@ skills:
   market-context-refresh: { enabled: false, schedule: "0 13 * * *", model: "claude-sonnet-4-6" } # fetch live crypto macro data, update memory
   narrative-tracker: { enabled: false, schedule: "30 13 * * *" } # track rising/peaking/fading narratives
   polymarket-comments: { enabled: false, schedule: "0 13 * * *" } # top comments from trending Polymarket markets
+
+  # --- zer0-skill-pack (community pack, disabled until first dry-run passes) ---
+  prediction-journal:        { enabled: false, schedule: "0 12 * * *" } # settle resolved positions, compute running PnL
+  polymarket-thesis:         { enabled: false, schedule: "0 13 * * *" } # daily 3-market take
+  polymarket-edge:           { enabled: false, schedule: "0 14,22 * * *" } # mispricing scanner, twice daily
+  polymarket-contrarian:     { enabled: false, schedule: "0 17 * * *" } # fades against >0.80 favorites
+  narrative-vs-markets:      { enabled: false, schedule: "0 19 * * *" } # X discourse vs market odds gap
+  polymarket-alpha-comments: { enabled: false, schedule: "0 */6 * * *" } # curated whale/insider/contrarian comments
   unlock-monitor: { enabled: false, schedule: "0 10 * * 1" } # weekly token unlock/vesting tracker
   aixbt-pulse: { enabled: false, schedule: "0 9,21 * * *", model: "claude-sonnet-4-6" } # twice daily — AIXBT free grounding endpoint: cross-domain market pulse (crypto/macro/tradfi/geopolitics) with taxonomy refresh
 
