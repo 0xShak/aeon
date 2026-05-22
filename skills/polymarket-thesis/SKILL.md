@@ -31,6 +31,8 @@ Otherwise, fetch the top markets by 24h volume and pick three:
 curl -s "https://gamma-api.polymarket.com/markets?closed=false&active=true&archived=false&enableOrderBook=true&order=volume24hr&ascending=false&limit=25"
 ```
 
+**Market freshness check (mandatory):** for every candidate, verify BOTH `acceptingOrders == true` AND `endDate > now + 6 hours` BEFORE forming a thesis. Polymarket markets stay `closed=false` for hours after the underlying event happens (until UMA resolves), so the API filter alone isn't enough. If you're looking at a sports market, also cross-check that the game's tip-off / start time is in the future — sometimes `endDate` is set hours after tip-off and you'll catch a game that's already been played. If a market fails either check, skip it and pick another from the next 25.
+
 From the 25, select three that:
 - Have **liquidity > $5,000** and **volume24hr > $1,000**
 - At least one outcome price is in `[0.05, 0.95]` (don't write a thesis on a market that's already a coin flip's worth of edge from resolution)
@@ -117,25 +119,38 @@ watching tomorrow: [one line on what's brewing that didn't make today's cut]
 
 ### 5. Notify
 
-Send the full report via `./notify` (under 4000 chars — trim the optional "would flip" bullets first if it overflows, never the conviction lines):
+Send the full report via `./notify` (under 4000 chars — trim the optional "would flip" bullets first if it overflows, never the conviction lines).
+
+**FORMAT IS NON-NEGOTIABLE.** Every reasoning line starts with the literal character `>` followed by a single space. No prose paragraphs. No exceptions. If you're tempted to write a sentence without `>` in front, stop and rewrite it as a bullet.
+
+Concrete example of correct output (mock data, follow this shape exactly):
 
 ```
-polymarket thesis. ${today}
+polymarket thesis. 2026-05-22
 
-1. [market question]
-> YES X.XX, $X.Xm 24h, resolves [date]
-> [one-sentence take]
-> [base rate or inside-view bullet]
-> side: [LONG/SHORT] @ [price], [X/10]
+1. will trump win pennsylvania in 2026 midterms?
+> YES 0.42, $2.1m 24h, resolves nov 4
+> ap call is the trigger, pa is the cleanest sample
+> dem incumbents averaged 51-53% margins in this district last 4 cycles
+> trump's been polling 4-7pp underwater statewide all year
+> side: SHORT YES at 0.42, 7/10
 
-2. [market question]
-... (same shape)
+2. will btc close above $120k on dec 31?
+> YES 0.31, $890k 24h, resolves dec 31
+> coinbase close is the trigger, no oracle ambiguity
+> historical year-end rallies after similar mid-year setups: 4 of last 7
+> current spot $98k means needs +22% in 7 months, plausible but not priced for it
+> side: LONG YES at 0.31, 6/10
 
-3. [market question]
-... (same shape)
+3. will senate confirm jane doe by june 15?
+> YES 0.72, $410k 24h, resolves jun 15
+> official vote tally is the trigger
+> fair price, no read
 
-watching tomorrow: [one line]
+watching tomorrow: [one line on what's brewing]
 ```
+
+Use this EXACT structure: market number + question, then `>` bullets, then blank line before next market.
 
 ### 6. Log
 
