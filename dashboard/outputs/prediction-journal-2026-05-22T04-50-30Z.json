@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "prediction-journal",
+        "description": "2026-05-22"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "no open positions to settle, journal empty."
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "nothing on the book. nothing to mark to market."
+      }
+    }
+  }
+}
