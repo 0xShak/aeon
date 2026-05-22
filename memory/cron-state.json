@@ -20,5 +20,14 @@
     "success_rate": 0.75,
     "last_error": "_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inpu",
     "last_success": "2026-05-22T05:54:43Z"
+  },
+  "polymarket-contrarian": {
+    "last_status": "success",
+    "last_success": "2026-05-22T06:22:25Z",
+    "total_runs": 1,
+    "total_successes": 1,
+    "total_failures": 0,
+    "consecutive_failures": 0,
+    "success_rate": 1
   }
 }
