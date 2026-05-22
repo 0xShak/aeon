@@ -23,3 +23,8 @@
 ## Next Priorities
 - Configure notification channels (Telegram, Discord, or Slack)
 - Run first digest
+
+## Open positions
+| Opened | Market | Side | Entry | Conv | Resolves | Status |
+|--------|--------|------|-------|------|----------|--------|
+| 2026-05-22 | US x Iran permanent peace deal by May 31, 2026? | SHORT YES (LONG NO) | 0.195 | 8/10 | 2026-05-31 | open |

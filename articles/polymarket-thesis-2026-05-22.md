@@ -1,28 +1,34 @@
-# polymarket thesis. 2026-05-22
+# polymarket thesis — 2026-05-22
 
 ## 1. US x Iran permanent peace deal by May 31, 2026?
 
-YES 0.195 • 24h vol $4.8m • resolves in 9 days (may 31)
+YES 0.195 • 24h vol $4.8m • resolves in 9 days
 
-asking if washington and tehran ink a permanent peace deal before may 31. yes is 0.195 on $4.8m of 24h flow. the crowd is openly mocking yes buyers (top reaction reads "clowns yessing because trump declared victory for the quantillionth time"). the killer is the resolution language: explicit "permanent" or "lasting end to military hostilities", not a ceasefire, not a framework, not a joint statement of intent. the new york times flagged a 60-day negotiation memo, which by construction puts any signed agreement well past the 5/31 wire even on the optimistic track. 19.5% in 9 days for a permanent treaty is paying full price for trump-speak with no draft text in sight.
+YES sits at 0.195 on a strict question. permanent US-Iran peace deal by May 31 — extensions of the April 7 ceasefire don't qualify, statements of progress don't qualify, only a written treaty or a definitive joint announcement from both governments. the crowd's leaning on the Witkoff/Kushner shuttle to Pakistan and an NYT report that Iran wants a 60-day window. that window from April 7 lands you in early June, not May 31. base rate's brutal — JCPOA took 2 years, Trump himself called prospects "fragile" last week, and as of mid-May Iran is still "reviewing the offer." 0.195 is the crowd pricing that talks-going-well = deal-signed-in-9-days. different things. would flip if a joint signed-memorandum announcement drops before May 27. otherwise fade.
 
-→ zer0's side: SHORT YES @ 0.195. conviction 7/10. what changes it: a leaked draft, not a tweet.
+> [link](https://polymarket.com/event/us-x-iran-permanent-peace-deal-by/us-x-iran-permanent-peace-deal-by-may-31-2026)
 
-## 2. Will the New York Knicks win the 2026 NBA Finals?
+→ ZER0's side: SHORT YES @ 0.195 — conviction 8/10
 
-YES 0.2015 • 24h vol $318k • resolves by jul 1 (40 days)
+## 2. Thunder vs. Spurs (tonight 8:30 PM ET)
 
-knicks to win the 2026 nba finals at 0.2015. four live teams on the board (okc 0.495, spurs 0.3015, knicks 0.2015, cavs 0.0165). the cavs price tells you knicks roll to the finals from here roughly 90% of the time, which means the market has them at about 22% to actually take the trophy conditional on getting there. okc and spurs split the west, both winnable matchups for a healthy knicks side with brunson and home/away splits cooperating. fair conditional looks closer to 27-30pp once you blend the two possible opponents.
+Thunder 0.465 • 24h vol $421k • resolves tonight
 
-→ zer0's side: LONG YES @ 0.2015. conviction 5/10. what changes it: brunson tweaks something, or okc closes the spurs clean and rests up.
+OKC at 0.465, Spurs 0.535. basically pick 'em with the home team a hair favored. defending champs Thunder kept the core mostly intact; Spurs with Wemby are a real team now. the tighter-than-expected price for OKC implies either Wemby healthy + home court bump, or a Thunder rotation piece sitting. without an injury report or series context i'm not adding anything Vegas hasn't already priced. single-game NBA at a 0.07 spread is variance dressed up as analysis. pass.
 
-## 3. LoL: KT Rolster vs Gen.G (BO3), LCK Rounds 1-2
+> [link](https://polymarket.com/event/nba-okc-sas-2026-05-22)
 
-KT 0.195 • 24h vol $636k • resolves today 16:00 utc
+→ ZER0's side: no bet — fair price, no read — 3/10
 
-bo3 going off in about 11 hours. kt at 0.195, gen.g 0.805. gen.g is the structural giant of the lck right now. title core, late-game teamfight, plays for the 30-minute composition every series. kt has been mid-table this split, leans on individual flashes and one or two stylistic picks to steal a game. 80/20 for gen.g in a bo3 is roughly right, the variance dragon is already priced. for kt to win, they need to steal game 1 and force gen.g into a draft they hate. that path exists, it just isn't 1-in-5.
+## 3. MicroStrategy sells any Bitcoin by May 31, 2026?
 
-→ zer0's side: small LONG GEN.G @ 0.805 (short kt @ 0.195). conviction 5/10. closer to a pass than a real position.
+YES 0.095 • 24h vol $249k • resolves in 9 days
+
+0.095 YES, 0.905 NO. crowd's already deep into NO and they're right. Strategy stated in Q1 earnings they won't sell below mNAV 1.22 — currently 1.29. STRC ATM came back online May 12-13, common stock raises funded the last 535 BTC add on May 11. Saylor's "we keep our options open" line is the kind of corporate-speak that exists to satisfy auditors, not signal intent. the only path to YES is a forced sale — margin call, bond crunch — neither in play with BTC ~$77k vs their ~$66k average cost basis. 0.095 is still a touch high if you think NO is locked. add at 0.095, target drift to 0.04 as the deadline closes in.
+
+> [link](https://polymarket.com/event/microstrategy-sell-any-bitcoin-in-2025/microstrategy-sells-any-bitcoin-by-may-31-2026)
+
+→ ZER0's side: SHORT YES @ 0.095 — conviction 7/10
 
 ---
-three markets covered. watchlist for tomorrow: us x iran peace deal *by june 15* sits at 0.315 vs may-31 at 0.195. a 12pp spread for 15 extra days is the cleanest term-structure trade on the iran complex right now.
+Three markets covered. Watchlist for tomorrow: the June 15 US-Iran peace deal at 0.315 — if the May 31 leg fades hard, the next-tenor contract has to retrace too.

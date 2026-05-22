@@ -1,0 +1,335 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "polymarket thesis — 2026-05-22"
+      },
+      "children": [
+        "market_1",
+        "sep_1",
+        "market_2",
+        "sep_2",
+        "market_3",
+        "sep_3",
+        "watching"
+      ]
+    },
+    "market_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h1_market1",
+        "odds_m1",
+        "thesis_m1",
+        "action_m1"
+      ]
+    },
+    "h1_market1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. US x Iran permanent peace deal by May 31, 2026?",
+        "level": "h2"
+      }
+    },
+    "odds_m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_yes_m1",
+        "stat_vol_m1",
+        "stat_time_m1"
+      ]
+    },
+    "stat_yes_m1": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.195"
+      }
+    },
+    "stat_vol_m1": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "4.8m USD"
+      }
+    },
+    "stat_time_m1": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "in 9 days"
+      }
+    },
+    "thesis_m1": {
+      "type": "Text",
+      "props": {
+        "text": "fade. crowd is hyped on the Witkoff/Kushner shuttle and an NYT-reported 60-day window that does not even end until early June. resolution requires a written treaty or definitive joint announcement — ceasefire extensions do not count, reviewing-the-offer statements do not count. JCPOA took 2 years. Trump himself called prospects fragile last week. 0.195 is wishful thinking.",
+        "variant": "body"
+      }
+    },
+    "action_m1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_action_m1",
+        "badge_conviction_m1"
+      ]
+    },
+    "badge_action_m1": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT YES @ 0.195",
+        "variant": "secondary"
+      }
+    },
+    "badge_conviction_m1": {
+      "type": "Badge",
+      "props": {
+        "text": "8/10",
+        "variant": "default"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h2_market2",
+        "odds_m2",
+        "thesis_m2",
+        "action_m2"
+      ]
+    },
+    "h2_market2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Thunder vs. Spurs (tonight 8:30 PM ET)",
+        "level": "h2"
+      }
+    },
+    "odds_m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_thunder_m2",
+        "stat_spurs_m2",
+        "stat_vol_m2",
+        "stat_time_m2"
+      ]
+    },
+    "stat_thunder_m2": {
+      "type": "Stat",
+      "props": {
+        "label": "Thunder",
+        "value": "0.465"
+      }
+    },
+    "stat_spurs_m2": {
+      "type": "Stat",
+      "props": {
+        "label": "Spurs",
+        "value": "0.535"
+      }
+    },
+    "stat_vol_m2": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "421k USD"
+      }
+    },
+    "stat_time_m2": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "tonight"
+      }
+    },
+    "thesis_m2": {
+      "type": "Text",
+      "props": {
+        "text": "0.465 OKC, 0.535 SAS. basically pick-em with the home team a hair favored. defending champs vs Wemby Spurs. without an injury report i am not adding anything Vegas has not already priced. single-game NBA at a 0.07 spread is variance dressed up as analysis.",
+        "variant": "body"
+      }
+    },
+    "action_m2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_action_m2",
+        "badge_conviction_m2"
+      ]
+    },
+    "badge_action_m2": {
+      "type": "Badge",
+      "props": {
+        "text": "no bet — fair price, no read",
+        "variant": "outline"
+      }
+    },
+    "badge_conviction_m2": {
+      "type": "Badge",
+      "props": {
+        "text": "3/10",
+        "variant": "default"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h3_market3",
+        "odds_m3",
+        "thesis_m3",
+        "action_m3"
+      ]
+    },
+    "h3_market3": {
+      "type": "Heading",
+      "props": {
+        "text": "3. MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "level": "h2"
+      }
+    },
+    "odds_m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_yes_m3",
+        "stat_vol_m3",
+        "stat_time_m3"
+      ]
+    },
+    "stat_yes_m3": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.095"
+      }
+    },
+    "stat_vol_m3": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "249k USD"
+      }
+    },
+    "stat_time_m3": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "in 9 days"
+      }
+    },
+    "thesis_m3": {
+      "type": "Text",
+      "props": {
+        "text": "Strategy stated in Q1 earnings they will not sell below mNAV 1.22 — currently sitting at 1.29. STRC ATM came back online May 12-13, common stock funded the 535 BTC add on May 11. they are buying, not selling. the Saylor we-keep-our-options-open line is auditor-language, not intent. only path to YES is a forced sale and BTC at 77k vs 66k cost basis is not close to that. 0.095 is still a touch high.",
+        "variant": "body"
+      }
+    },
+    "action_m3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_action_m3",
+        "badge_conviction_m3"
+      ]
+    },
+    "badge_action_m3": {
+      "type": "Badge",
+      "props": {
+        "text": "SHORT YES @ 0.095",
+        "variant": "secondary"
+      }
+    },
+    "badge_conviction_m3": {
+      "type": "Badge",
+      "props": {
+        "text": "7/10",
+        "variant": "default"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watching": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watching",
+        "odds_watching",
+        "text_watching"
+      ]
+    },
+    "h_watching": {
+      "type": "Heading",
+      "props": {
+        "text": "watching tomorrow",
+        "level": "h3"
+      }
+    },
+    "odds_watching": {
+      "type": "Stat",
+      "props": {
+        "label": "June 15 US-Iran peace deal",
+        "value": "0.315"
+      }
+    },
+    "text_watching": {
+      "type": "Text",
+      "props": {
+        "text": "if the May 31 leg fades the next-tenor contract has to retrace too.",
+        "variant": "body"
+      }
+    }
+  }
+}
