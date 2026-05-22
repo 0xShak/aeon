@@ -1,0 +1,25 @@
+polymarket alpha — 2026-05-22
+
+5 alpha calls. iran complex dominates the feed, mstr the lone non-iran.
+
+1. [contrarian] "mstr sells any btc by june 30" — yes 0.52
+@Flat-Waterskiing (8 reacts): "the yes case for may is dead. strc atm is back online, may 12 and 13 traded above $100 par. strategy added 535 btc on may 11 via common stock proceeds. saylor posted 'back to work. btc.' sunday. three independent signals in 72 hours."
+> the strc atm at par+ is the actual mechanism. funds purchases without touching the btc bag. fades yes 0.52 on named signals, not vibes.
+
+2. [contrarian] "iran closes its airspace by may 31?" — yes 0.315
+@Neighboring-Longitude: "kuwait has restricted its airspace to arriving and departing flights only until may 23rd, and has suspended all transit permits over the country."
+> verifiable regional tightening one week before resolution. kuwait isn't iran but the overflight cluster precedes closures, doesn't lag them. yes 0.315 looks light.
+
+3. [contrarian] "trump announces us blockade of hormuz lifted" — yes 0.255
+@Required-Spit (linked isw iran update may 21): "isw: nuclear weapons and control of passage through the strait of hormuz are the two major obstacles to current negotiations. within iran, disagreement on the former, high consensus on the latter."
+> isw is real institutional source naming the binding constraints. soh passage is the iran red line, not "a topic." paired with same poster's rubio quote that insisting on soh control kills any deal. fades yes 0.255 with substance.
+
+4. [resolution] "iran ceasefire continues through may 24" — yes 0.895
+@Innocent-Kid: "rules said both sides had to agree to it, only trump announced the extension."
+> pure resolution alpha. the april 22 ceasefire-extension market on the same event family already resolved no because tehran didn't co-announce. if may 24 follows the same uma read, no at 0.105 has a mechanical leg. pull the prior resolution proposal text.
+
+5. [unverified] [insider] "trump announces us blockade of hormuz lifted" — yes 0.255
+@Dreary-Marketer (al hadath sourced, 2026-05-20): "work is underway to finalize the text of a washington-tehran agreement. sources say a final deal could be announced within hours if pakistan's army chief does not travel to iran."
+> unverified but names a checkable tripwire (pakistan army chief travel status). rare for an insider-sounding post to give a falsifiable condition. flagged unverified, surfacing for the trigger.
+
+article: articles/polymarket-alpha-comments-2026-05-22.md
