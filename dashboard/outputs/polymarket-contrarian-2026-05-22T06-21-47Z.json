@@ -1,0 +1,240 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "polymarket contrarian",
+        "description": "2026-05-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_finding",
+        "text_methodology",
+        "separator1",
+        "heading_universe",
+        "text_universe",
+        "text_clusters",
+        "separator2",
+        "heading_positions",
+        "stack_positions",
+        "separator3",
+        "text_conclusion"
+      ]
+    },
+    "heading_finding": {
+      "type": "Heading",
+      "props": {
+        "text": "0 fades worth taking",
+        "level": "h2"
+      }
+    },
+    "text_methodology": {
+      "type": "Text",
+      "props": {
+        "text": "Ran every heavy favorite >0.80 in the 24h–30d window through the three-question fade test (specific tail, base rate, mispricing). Nothing made the bar."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_universe": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Universe",
+        "level": "h3"
+      }
+    },
+    "text_universe": {
+      "type": "Text",
+      "props": {
+        "text": "The universe today is mostly iran-cluster plus fed rate markets and btc tail-strike binaries. All priced about right."
+      }
+    },
+    "text_clusters": {
+      "type": "Text",
+      "props": {
+        "text": "Iran-cluster topics: peace deal, hormuz traffic, regime fall, kharg, transit fees, ceasefire term structure.",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Analysis",
+        "level": "h3"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "card_hormuz",
+        "card_iran_ceasefire",
+        "card_usiran_peace"
+      ]
+    },
+    "card_hormuz": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_hormuz",
+        "grid_hormuz_stats",
+        "text_hormuz_analysis"
+      ]
+    },
+    "heading_hormuz": {
+      "type": "Heading",
+      "props": {
+        "text": "Hormuz traffic normalization",
+        "level": "h4"
+      }
+    },
+    "grid_hormuz_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "stat_hormuz_odds",
+        "stat_hormuz_payoff"
+      ]
+    },
+    "stat_hormuz_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES odds",
+        "value": "0.0285"
+      }
+    },
+    "stat_hormuz_payoff": {
+      "type": "Stat",
+      "props": {
+        "label": "Payoff multiple",
+        "value": "35x"
+      }
+    },
+    "text_hormuz_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Closest call, but the 7-day moving average of transit calls ≥ 60 with 9 days left is a mechanical bar the math doesn't clear.",
+        "variant": "caption"
+      }
+    },
+    "card_iran_ceasefire": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_ceasefire",
+        "grid_ceasefire_stats",
+        "text_ceasefire_analysis"
+      ]
+    },
+    "heading_ceasefire": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran-ceasefire-may-24",
+        "level": "h4"
+      }
+    },
+    "grid_ceasefire_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "stat_ceasefire_odds",
+        "stat_ceasefire_implied"
+      ]
+    },
+    "stat_ceasefire_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES odds",
+        "value": "0.895"
+      }
+    },
+    "stat_ceasefire_implied": {
+      "type": "Stat",
+      "props": {
+        "label": "Implied probability",
+        "value": "10.5%"
+      }
+    },
+    "text_ceasefire_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Has a concrete tail (us strike in 48h) but no specific catalyst.",
+        "variant": "caption"
+      }
+    },
+    "card_usiran_peace": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_peace",
+        "text_peace_analysis"
+      ]
+    },
+    "heading_peace": {
+      "type": "Heading",
+      "props": {
+        "text": "US-Iran permanent peace deal by May 31",
+        "level": "h4"
+      }
+    },
+    "text_peace_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Already held LONG NO from yesterday's thesis, can't double-fade self.",
+        "variant": "caption"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_conclusion": {
+      "type": "Text",
+      "props": {
+        "text": "Back tomorrow. Favorites are favorites today.",
+        "variant": "lead"
+      }
+    }
+  }
+}

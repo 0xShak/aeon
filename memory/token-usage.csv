@@ -2,3 +2,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-22,prediction-journal,claude-opus-4-7,10,2375,184248,18237
 2026-05-22,prediction-journal,claude-opus-4-7,12,2605,253532,18798
 2026-05-22,polymarket-thesis,claude-opus-4-7,53,29430,2615212,75978
+2026-05-22,polymarket-contrarian,claude-opus-4-7,83,40319,4483445,99579
